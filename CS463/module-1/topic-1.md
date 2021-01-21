@@ -1,5 +1,8 @@
 ---
 layout: default
+course: CS463
+module: 1
+topic: 1
 ---
 
 ## Introduction to Images
@@ -116,3 +119,117 @@ It is the analysis and manipulation of a digitized image, especially in order to
 ---
 
 ### Components of an Image Processing System
+
+Consists of 8 main parts
+
+1. Image Sensors
+2. Specialized Image Processing Hardware
+3. Computer
+4. Image Processing Software
+5. Mass Storage Capability
+6. Image Displays
+7. Hardcopy devices
+8. Networking
+
+
+#### Image Sensors
+
+- Device to aquire Digital Images
+- Comprises of two parts
+    - Sensor
+    - Digitizer
+##### Sensor
+Physical Device that is **sensitive** to the energy radiated by the object.
+
+> Sensors can be Image sensors, Infrared sensors etc...
+
+##### Digitizer
+A device used for **converting** the output of the sensor **to Digital Form**
+
+#### Specialized Image Processing Hardware
+
+- Usually consists of the **digitizer** and hardware
+- performs other primitive operations,like arithmetic and logical operations in parallel on entire images (ALU).
+- also known as a front-end subsystem
+- performs functions that require fast data throughput.
+
+#### Computer
+
+- A general purpose computer (ranges from a PC to a supercomputer)
+- Sometimes, specially designed computers are used for dedicated applications.
+
+#### Image Processing Software
+
+- Software consists of specialized modules that perform specific tasks.
+
+> Converting to grayscale, Determining the resolution are some of the examples of such modules.
+
+- Well designed modules/packages often encourage the user to minimize user code by using the module's built-in functions.
+
+#### Mass Storage Capability
+
+Storage is a necessary part in Image processing Applications.
+
+Images are stored as matrices where each element of the matrix denotes that position's intensity values.
+
+An image of size 1024 x 1024 requires 1 MB of Storage.
+
+> Data Sizes:
+8 bits => 1 byte
+1024 bytes => 1 kiloByte
+1024 kB => 1 megaByte
+
+Digital Storage can be of 3 types
+- Short term storage : Used during processing (storing intermediate results).
+    - Using frame buffers, caches
+- Online Storage : Used for relatively fast recall (fetching).
+    - Using Optical and Magnetic Disks
+- Archival storage: Used for backup and infrequent accesses.
+
+#### Image Displays
+
+- Monitors outputs the image using the graphics card of the computer.
+- Most monitors today are Colour and also flat screen.
+
+#### Hardcopy Devices
+
+Used for recording images, include laser printers, film cameras, heat sensitive devices etc..
+
+#### Networking
+
+- Networking is considered, an integral part of a computer.
+- Image transmission often considers the bandwidth required for transmiting the image data.
+- Long distance communications can be inefficient, as an alternative, we **use Optical fiber** or other Broadband technologies.
+
+--- 
+
+## Applications of DIP
+_Fields that use Digital Image Processing_
+
+- Gamma Rays
+    - Bone Pathology
+    - Tumor Detection
+    - Nuclear Medicine
+- X-Rays
+    - Medical Diagnostics
+    - Astronomy (Telescopes)
+    - Angiography
+    - Structural Integrity Checking
+- Ultraviolet Rays 
+    - Microscopy
+    - Biological Imaging
+    - Lasers
+    - Lithography
+    - Flurescence microscopy
+    - Astronomy (Telescopes and Sensors)
+- Visible
+    - Microscopy
+    - Remote Sensing
+    - Security
+- Infrared Rays
+    - Astronomy
+    - Remote Sensing
+    - Infrared Photography
+    - Meteorology (Weather Dept.)
+
+--- 

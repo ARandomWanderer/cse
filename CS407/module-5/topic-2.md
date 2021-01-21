@@ -1,3 +1,10 @@
+---
+layout: default
+course: CS407
+module: 5
+topic: 2
+---
+
 ## Ensuring Serialibility
 
 ### Locks

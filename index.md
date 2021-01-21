@@ -4,5 +4,13 @@
 
 layout: home
 ---
+Courses:
 
-{% include navs.html %}
+{% for node in site.pages %}
+  {% if node.course %} 
+    {% if node.module %}
+    {% else %}
+<a href="{{site.baseurl}}{{node.url}}">{{node.course}}</a>
+    {% endif %}
+  {% endif %}
+{% endfor %}

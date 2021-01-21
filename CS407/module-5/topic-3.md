@@ -1,3 +1,10 @@
+---
+layout: default
+course: CS407
+module: 5
+topic: 3
+---
+
 ### Optimisitc Concurrency Control
 
 > **Optimistic Concurrency Control** assumes that multiple transactions **can frequently complete without interfering** with each other. While running, transactions use data resources without acquiring locks on those resources. Before committing, each transaction **verifies that no other transaction has modified the data** it has read. If the check reveals conflicting modifications, the committing transaction rolls back and can be restarted... [Read on Wikipedia](https://en.wikipedia.org/wiki/Optimistic_concurrency_control)

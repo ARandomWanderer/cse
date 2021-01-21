@@ -1,3 +1,10 @@
+---
+layout: default
+course: CS407
+module: 5
+topic: 1
+---
+
 ## Transaction and Concurrency Control
 
 ### Transaction

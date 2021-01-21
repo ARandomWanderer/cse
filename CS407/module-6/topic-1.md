@@ -1,3 +1,10 @@
+---
+layout: default
+course: CS407
+module: 6
+topic: 1
+---
+
 # Distributed Systems
 
 ## Ricart–Agrawala Algorithm

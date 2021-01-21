@@ -1,3 +1,9 @@
+---
+layout: default
+course: CS405
+module: 4
+---
+
 #### Consider the five-stage pipelined processor specified by the following reservation table and answer the following. ('s' indicates the stages).
 
 | / |1  |2  |3  |4  |5  |6  |
@@ -18,10 +24,10 @@
 ###### 1.Forbidden Latencies and Collision Vector
 > Finding the distances between each X in each \\(S_x\\)
 
-\\(S_1 = \\) { (6-1) } = { 5 }
-\\(S_2 = \\)  { (4-2) } = { 2 }
-\\(S_3 = \\)  { (3) } = { 3 }
-\\(S_4 = \\)  { (5-4) } = { 1 }
+\\(S_1 = \\) { (6-1) } = { 5 }  
+\\(S_2 = \\)  { (4-2) } = { 2 }  
+\\(S_3 = \\)  { (3) } = { 3 }  
+\\(S_4 = \\)  { (5-4) } = { 1 }  
 
 > Taking unique values from \\(S_x\\) to form the Forbidden Latency
 
@@ -54,14 +60,9 @@ Collision vector = 10111
 
 > Perform n right shifts and OR it with the original collision vector.
 
-```tex
+\\(  11011 +(OR) \\\ \dfrac{00001}{10111} \\)
 
- 11011 +(OR) \\
-\dfrac{00001}{10111}
-
- 11011 +(OR) \\
-\dfrac{00010}{10111}
-```
+\\( 11011 +(OR) \\\ \dfrac{00010}{10111} \\)
 
 ---
 ###### 3. Simple Cycle
