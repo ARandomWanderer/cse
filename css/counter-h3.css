@@ -1,0 +1,13 @@
+
+/* Automatic Numbering */
+/* .t-preview-md h1{counter-increment: h1; } */
+.page-content h1::before{counter-set:h2 h3 h4 h5 h6; }
+.page-content h2::before{counter-set: h3 h4 h5 h6;}
+.page-content h3{counter-increment: h3; }   
+.page-content h3:before{content:  counter(h3) ". "; counter-set: h4 h5 h6;}
+.page-content h4{counter-increment: h4; }   
+.page-content h4::before{content:  counter(h3) ". " counter(h4) ". ";counter-set: h5 h6; }
+.page-content h5{counter-increment: h5;}   
+.page-content h5::before{content:  counter(h3) ". " counter(h4) ". " counter(h5) ". "; counter-set: h6;}
+.page-content h6{counter-increment: h6;}   
+.page-content h6::before{content:  counter(h3) ". " counter(h4) ". " counter(h5) ". " counter(h6) ". "; counter-reset: h6;}

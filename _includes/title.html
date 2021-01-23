@@ -1,0 +1,9 @@
+{% if page.course %}
+    {% if page.module %}
+    <title>{{page.course}}-Module {{page.module}} Notes | CSE-Notes Repository</title>
+    {% else %}
+    <title>{{page.course}} Notes | CSE-Notes Repository</title>
+    {% endif %}
+{% else %}
+    <title>CSE-Notes Repository</title>
+{% endif %}

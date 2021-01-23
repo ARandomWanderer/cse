@@ -2,7 +2,6 @@
 layout: default
 course: CS407
 module: 1
-topic: 1
 ---
 
 CS407 Distributed Computing
